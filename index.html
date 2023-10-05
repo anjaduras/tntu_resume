@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anna Duras - Frontend Developer</title>
+        <meta name="description" content="Anna Duras - Resume">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        body {
+        height: 100vh;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        margin: 0;
+        }
+        main {
+        padding: 8px;
+        padding-left: 16px;
+        flex: 1;
+        }
+        h1,
+        h2,
+        h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        }
+        main h2 {
+        color: rgb(0, 139, 25);
+        }
+        main h3 {
+        color: #000000;
+        font-family: Arial, sans-serif;
+        }
+        aside {
+        background-color: rgb(191, 230, 173);
+        padding: 16px;
+        box-sizing: border-box;
+        top: 0;
+        }
+        aside h2 {
+        text-align: center;
+        }
+        .photo {
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        }
+        .subtitle {
+        margin-top: -.5rem;
+        color: gray;
+        font-style: italic;
+        font-weight: 500;
+        }
+        a {
+        color: #000000;
+        }
+        .wrapper_inner {
+        display: flex;
+        flex-direction: column;
+        }
+        @media (max-width: 767px) {
+        aside {
+        position: static;
+        }
+        .parent {
+        display: flex;
+        flex-direction: column;
+        }
+        }
+        @media (min-width: 768px) {
+        .parent {
+        display: grid;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 2px;
+        grid-row-gap: 0px;
+        }
+        }
+        @media (min-width: 768px) {
+        html,
+        body {
+        min-height: 100vh;
+        overflow-y: auto;
+        }
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <aside class="div1">
+                <aside class="div1">
+                    <img src="./imgs/407x407.jpg" alt="Anna Duras" width="180" height="180" class="photo">
+                    <div>
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li>Phone: <a href="tel:+4915172451397">+4915172451397</a></li>
+                            <li>Email: <a href="mailto:anna@duras.org">anna@duras.org</a></li>
+                            <li>LinkedIn: <a href="https://www.linkedin.com/in/annaduras/">annaduras</a></li>
+                            <li>Instagram: <a href="https://www.instagram.com/tashoklasna/">tashoklasna</a></li>
+                            <li>Github: <a href="https://github.com/anjaduras">anjaduras</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Tech Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Soft skills</h2>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Leadership</li>
+                            <li>Teamwork</li>
+                            <li>Creativity</li>
+                            <li>Time management</li>
+                        </ul>
+                    </div>
+                </aside>
+            </aside>
+            <main class="div2">
+                <div class="wrapper_inner">
+                    <header>
+                        <h1>Anna Duras</h1>
+                        <p class="subtitle">Frontend Developer</p>
+                    </header>
+                    <p>Passionate frontend developer
+                        with lots of ideas. Committed
+                        to creating user-friendly web
+                        experiences. Detail-oriented
+                        with a focus on high-quality
+                    code.</p>
+                    <section>
+                        <h2>My projects</h2>
+                        <ul>
+                            <li><a href="https://njurapokazhe.netlify.app">njurapokazhe.netlify.app</a> ..............
+                        [HTML]</li>
+                        <li><a href="https://njurapokazhe.netlify.app">njurapokazhe.netlify.app</a> .............. [CSS]
+                    </li>
+                    <li><a href="https://njurapokazhe.netlify.app">njurapokazhe.netlify.app</a> ..............
+                [JavaScript]</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Work experience</h2>
+            <article>
+                <h3>Front-End Developer Mentor | Company | Germany</h3>
+                <p>March - June 2023</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript: React.js</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Front-End Developer | Company | Ukraine</h3>
+                <p>September 2020 - up to now</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h3>Front-End Developer | Company | Ukraine</h3>
+                <p>September 2020 - up to now</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <article>
+                <h3>Ternopil Ivan Puluj National Technical University</h3>
+                <p>Computer Science</p>
+                <p>September 2022 - till now</p>
+            </article>
+        </section>
+    </div>
+</main>
+</div>
+</body>
+</html>
